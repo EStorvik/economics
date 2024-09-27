@@ -13,7 +13,7 @@ money_loan = 100000
 interest_loan = 5.5
 
 money_fund = 100000
-interest_fund = 15
+interest_fund = 10
 
 inflation = 4.3
 years = 20
@@ -48,7 +48,7 @@ plt.plot(t, b)
 plt.legend(["Value change of money in bank"])
 plt.figure()
 plt.plot(t, c_l)
-plt.legend(["inflation adjusted interest payed"])
+plt.legend(["inflation adjusted cost of loan"])
 plt.figure()
 plt.plot(t, f)
 plt.legend(["inflation (and tax) adjusted change of money in fund"])
