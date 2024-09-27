@@ -53,6 +53,11 @@ class Fund():
         else:
             return total_subtractable
 
+    def adjusted_change(self):
+        """
+        calculates the change in money adjusted for inflation
+        """
+        return self.subtractable_money()-self.start_money
 
 
         
